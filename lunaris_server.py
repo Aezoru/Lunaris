@@ -14,7 +14,7 @@ from fastapi.responses import StreamingResponse, JSONResponse
 from typing import List, Optional
 
 # --- 1. الإعدادات الرئيسية ---
-GOOGLE_API_KEY = "AIzaSyD6ZOtzzjE4P5xWbsYIjnBaDM8woz-RMjE"
+GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"
 MODEL_TEXT = "gemini-2.5-flash"
 MODEL_VISION = "gemini-2.5-flash" # نموذج يدعم الصور والنصوص
 MODEL_IMAGE_GEN = "gemini-2.5-flash" # نموذج توليد الصور
